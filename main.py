@@ -1,3 +1,8 @@
+"""Refactoring unpure -> pure.
+
+Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu02/aufgaben/pure2
+"""
+
 BASKET = [{'Produkt': 'T-Shirt', 'Preis': 20}, {'Produkt': 'Hose', 'Preis': 50}]
 DISCOUNT = 0.1
 
