@@ -9,7 +9,6 @@ DISCOUNT = 0.1
 
 # Unpure function
 def calculate_total_unpure():
-    global BASKET, DISCOUNT
     total = sum(item['Preis'] for item in BASKET)
     discount = total * DISCOUNT
     total = total - discount
@@ -28,5 +27,5 @@ if __name__ == '__main__':
     calculate_total_unpure()
 
     print('Pure function:')
-    total = calculate_total_pure()
-    print(f'Gesamtpreis: {total}')
+    total_pure = calculate_total_pure()
+    print(f'Gesamtpreis: {total_pure}')
